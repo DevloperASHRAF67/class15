@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h5,h4,a, p{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-family: 'Crimson Text', serif;
+}
+a{
+    color: #fff;
+}
+.fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.widthfix{
+    width: 1100px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+/* menu */
+.menu{
+    background: #0bbf9a;
+
+}
+.left-menu{
+    float:left;
+    width: 40%;
+}
+.left-menu h1{
+    line-height: 73px;
+    transition: .6s;
+   
+}
+.left-menu h1:hover{
+    color: gray;
+}
+.right-menu{
+    float: right;
+    width: 60%;
+}
+.right-menu ul{
+    text-align: right;
+
+}
+.right-menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 30px 50px;
+
+}
+.right-menu ul li a{
+    transition: .6s;
+    font-size: 20px;
+    font-weight: 700;
+}
+.right-menu ul li a:hover{
+    color: rgb(255, 0, 85);
+}
+/* banner */
+.banner{
+    background: url(./img/header-bg01.jpg) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+}
+.banner h1{
+    padding-top: 200px;
+    font-size: 50px;
+    color:#fff ;
+} 
+.banner p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color:#fff ;
+    opacity: .8;
+}
+.banner a{
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: .8s;
+}
+.banner a:hover{
+    background: rgba(255, 0, 0, 0.797)50% ;
+    transition: 0.8s;
+}
+/* service */
+.service {
+    color: black;
+    text-align: center;
+    padding: 100px 0px;
+    border-bottom: 2px solid  #0bbf9a;
+}
+.service .h1{
+    padding-bottom: 30px;
+}
+.service .p{
+    font-size: 20px;
+    margin: auto;
+    font-size: 19px;
+    opacity: .8;
+}
+
+.serv-list{
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.serv-list:first-child{
+    margin-left:15px;
+}
+.serv-list span{
+    color: #0bbf9a;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.serv-list h2{
+    padding: 20px 0px;
+    font-weight: 700;
+
+}
+.serv-list p{
+    font-size: 18px;
+    opacity: .8;
+    text-align: justify;
+}
+/* about */
+.about{
+    text-align: center;
+    
+}
+.h1{
+    padding: 80px 0px 20px 0px;
+    font-weight: 700;
+}
+
+.p{
+    padding-bottom: 80px;
+    font-size: 20px;
+    opacity: .8;
+    text-align: center;
+}
+.about-list{
+    float: left;
+    width: 48%;
+    padding-bottom: 100px;
+}
+.about-list img{
+    height: 530px;
+    margin-top: 10px;
+}
+.about-list2{
+    float: right;
+    width: 48%;
+    text-align: left;
+    height: 500px;
+    padding-bottom: 100px;
+}
+.about-list2 .list-1{
+    margin-bottom: 30px;
+}
+.about-list2 h1{
+    padding-bottom: 10px;
+
+}
+.about-list2 p{
+    font-size: 19px ;
+    line-height: 20px;
+    opacity: .8;
+}
+/* contact */
+.contact{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.bg{
+    background: rgba(217, 206, 206, 0.537);
+}
+.con{
+    float: left;
+    width: 33.3%;
+}
+.con a,p {
+    color: black;
+    font-size: 19px;
+    padding: 10px 0px 3px 0px;
+}
+.con span{
+    color: #0bbf9a;
+    font-size: 25px;
+}
+/* footer */
+.footer{
+    text-align: center;
+    background: #0bbf9a;
+}
+
+.footer ul li{
+    display:inline-block;
+    list-style: none;
+    padding: 30px 30px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.footer ul li a{
+    color: #fff;
+    font-size: 25px;
+    transition: .8s;
+}
+.footer ul li a:hover{
+    color: red;
+}
